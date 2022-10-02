@@ -1,0 +1,15 @@
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\bin\Debug\net6.0\ATMConsoleApp.exe
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\bin\Debug\net6.0\ATMConsoleApp.deps.json
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\bin\Debug\net6.0\ATMConsoleApp.runtimeconfig.json
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\bin\Debug\net6.0\ATMConsoleApp.dll
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\bin\Debug\net6.0\ATMConsoleApp.pdb
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ATMConsoleApp.csproj.AssemblyReference.cache
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ATMConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ATMConsoleApp.AssemblyInfoInputs.cache
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ATMConsoleApp.AssemblyInfo.cs
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ATMConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ATMConsoleApp.dll
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\refint\ATMConsoleApp.dll
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ATMConsoleApp.pdb
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ATMConsoleApp.genruntimeconfig.cache
+C:\Users\downw\Desktop\projects\ATMConsoleApp\ATMConsoleApp\obj\Debug\net6.0\ref\ATMConsoleApp.dll
