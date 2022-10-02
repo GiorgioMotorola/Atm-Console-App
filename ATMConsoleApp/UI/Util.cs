@@ -15,6 +15,18 @@ namespace ATMConsoleApp.UI
             Console.ReadLine();
         }
 
+        public static void PrintDotAnimation(int timer = 10)
+        {
+            
+            for (int i = 0; i < timer; i++)
+            {
+                Console.Write(".");
+                Thread.Sleep(200);
+                
+            }
+            Console.Clear();
+        }
+
         public static string GetUserInput(string prompt)
         {
             // enables us to reuse "Enter" thru the program
@@ -50,6 +62,8 @@ namespace ATMConsoleApp.UI
             {
                 if (isPrompt)
                     Console.WriteLine(prompt);
+                isPrompt = false;
+
                 ConsoleKeyInfo inputKey = Console.ReadKey(true);
 
                 if (inputKey.Key == ConsoleKey.Enter)
@@ -61,8 +75,9 @@ namespace ATMConsoleApp.UI
                     else
                     {
                         PrintMessage("\nPlease Enter 6 Digits.", false);
-                        isPrompt = true;
                         input.Clear();
+                        isPrompt = true;
+                        continue;
                     }
 
                 }

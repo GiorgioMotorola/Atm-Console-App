@@ -13,11 +13,10 @@ namespace ATMConsoleApp.App
         {
             // calls Welcome class
             AppScreen.Welcome();
-           
             ATMApp atmApp = new ATMApp();
-
+            atmApp.InitializeData();
             atmApp.CheckUserCardNumberAndPassword();
-
+            atmApp.Welcome();
             Util.PressEnterToContinue();
         }
     }

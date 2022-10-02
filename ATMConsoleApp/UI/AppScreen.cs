@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ATMConsoleApp.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ATMConsoleApp.UI
 {
-     public static class AppScreen
+    public static class AppScreen
     {
         internal static void Welcome()
         {
@@ -26,6 +27,29 @@ namespace ATMConsoleApp.UI
             Util.PressEnterToContinue();
         }
 
-        
+        internal static UserAccount UserLoginForm()
+        {
+            UserAccount tempUserAccount = new UserAccount();
+
+            tempUserAccount.CardNumber = Validate.Convert<long>("your card number.");
+            tempUserAccount.CardPin = Convert.ToInt32(Util.GetSecretInput("Enter Your Card Pin"));
+            return tempUserAccount;
+        }
+
+        internal static void LoginProgress()
+        {
+
+            Console.WriteLine("\nChecking card number and PIN...");
+            Util.PrintDotAnimation();
+        }
+
+        internal static void PrintLockScreen()
+        {
+            Console.Clear();
+            Util.PrintMessage("Your Account is Locked! Please go to the nearest Branch to have your Account unlocked.", true);
+            Util.PressEnterToContinue();
+            Environment.Exit(1);
+        }
+
     }
 }
